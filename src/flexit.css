@@ -1,0 +1,11 @@
+.flexit-boxContainer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.flexit-boxContainer > .flexit-box {
+    position: absolute;
+    opacity: 1;
+    transition: opacity .5s, transform .5s;
+}
